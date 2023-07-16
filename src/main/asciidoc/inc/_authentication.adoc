@@ -204,7 +204,7 @@ For a more complete, robust and reliable authentication experience, you can add 
 ----
 <plugins>
     <plugin>
-        <groupId>io.fabric8</groupId>
+        <groupId>com.github.wajda</groupId>
         <artifactId>docker-maven-plugin</artifactId>
         <dependencies>
             <dependency>

@@ -20,9 +20,9 @@
   -->
 
   <parent>
-    <groupId>io.fabric8.dmp.samples</groupId>
+    <groupId>com.github.wajda.dmp.samples</groupId>
     <artifactId>dmp-sample-parent</artifactId>
-    <version>0.44-SNAPSHOT</version>
+    <version>0.44.0.0-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
@@ -90,7 +90,7 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>io.fabric8</groupId>
+        <groupId>com.github.wajda</groupId>
         <artifactId>docker-maven-plugin</artifactId>
         <extensions>true</extensions>
         <!-- enables using 'docker' packaging above -->
@@ -215,7 +215,7 @@
       <build>
         <plugins>
           <plugin>
-            <groupId>io.fabric8</groupId>
+            <groupId>com.github.wajda</groupId>
             <artifactId>docker-maven-plugin</artifactId>
             <configuration combine.self="override">
               <watchPostGoal>org.apache.maven.plugins:maven-help-plugin:help</watchPostGoal>
@@ -279,7 +279,7 @@
       <build>
         <plugins>
           <plugin>
-            <groupId>io.fabric8</groupId>
+            <groupId>com.github.wajda</groupId>
             <artifactId>docker-maven-plugin</artifactId>
             <configuration combine.self="override">
               <images>
@@ -341,7 +341,7 @@
       <build>
         <plugins>
           <plugin>
-            <groupId>io.fabric8</groupId>
+            <groupId>com.github.wajda</groupId>
             <artifactId>docker-maven-plugin</artifactId>
             <configuration combine.self="override">
               <autoPull>true</autoPull>
@@ -392,7 +392,7 @@
       <build>
         <plugins>
           <plugin>
-            <groupId>io.fabric8</groupId>
+            <groupId>com.github.wajda</groupId>
             <artifactId>docker-maven-plugin</artifactId>
             <configuration combine.self="override">
               <images>
@@ -414,7 +414,7 @@
       <build>
         <plugins>
           <plugin>
-            <groupId>io.fabric8</groupId>
+            <groupId>com.github.wajda</groupId>
             <artifactId>docker-maven-plugin</artifactId>
             <configuration combine.self="override">
               <images>
@@ -501,7 +501,7 @@
       <build>
         <plugins>
           <plugin>
-            <groupId>io.fabric8</groupId>
+            <groupId>com.github.wajda</groupId>
             <artifactId>docker-maven-plugin</artifactId>
             <configuration>
               <machine>

@@ -6,13 +6,13 @@
   samples aggregator
   -->
   <parent>
-    <groupId>io.fabric8.dmp</groupId>
+    <groupId>com.github.wajda.dmp</groupId>
     <artifactId>parent</artifactId>
-    <version>0.44-SNAPSHOT</version>
+    <version>0.44.0.0-SNAPSHOT</version>
     <relativePath>../parent/pom.xml</relativePath>
   </parent>
 
-  <groupId>io.fabric8.dmp.samples</groupId>
+  <groupId>com.github.wajda.dmp.samples</groupId>
   <artifactId>dmp-sample-parent</artifactId>
   <packaging>pom</packaging>
 
@@ -49,7 +49,7 @@
 
       <plugins>
         <plugin>
-          <groupId>io.fabric8</groupId>
+          <groupId>com.github.wajda</groupId>
           <artifactId>docker-maven-plugin</artifactId>
           <version>${latest-released-version}</version>
         </plugin>

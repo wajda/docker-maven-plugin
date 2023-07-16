@@ -8,7 +8,7 @@ available goals are described below.
 [source,xml,indent=0,subs="verbatim,quotes,attributes"]
 ----
 <plugin>
-  <groupId>io.fabric8</groupId>
+  <groupId>com.github.wajda</groupId>
   <artifactId>docker-maven-plugin</artifactId>
   <version>{version}</version>
 
@@ -67,7 +67,7 @@ These packaging definitions include the _jar_ lifecycle methods so they are well
   <build>
     <plugins>
       <plugin>
-        <groupId>io.fabric8</groupId>
+        <groupId>com.github.wajda</groupId>
         <artifactId>docker-maven-plugin</artifactId>
         <extensions>true</extensions>
         <configuration>

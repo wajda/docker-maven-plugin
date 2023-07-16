@@ -1,6 +1,6 @@
 #!/usr/bin/groovy
 def repo(){
- return 'fabric8io/docker-maven-plugin'
+ return 'wajda/docker-maven-plugin'
 }
 
 def stage(){
@@ -25,8 +25,8 @@ def release(project){
     stagedProject = project
     useGitTagForNextVersion = true
     helmPush = false
-    groupId = 'io.fabric8'
-    githubOrganisation = 'fabric8io'
+    groupId = 'com.github.wajda'
+    githubOrganisation = 'wajda'
     artifactIdToWatchInCentral = 'docker-maven-plugin'
     artifactExtensionToWatchInCentral = 'jar'
   }
