@@ -211,7 +211,8 @@ git_commit_files() {
     local version=$1
 
     echo "==== Committing files to local git"
-    git_commit pom.xml "Update pom.xmls to $version"
+    git add pom.xml
+    git commit -m "Update pom.xmls to $version"
 }
 
 git_tag_release() {
